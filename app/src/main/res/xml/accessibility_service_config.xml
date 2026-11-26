@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Phase 0 (Inspector) configuration.
+  Deliberately broad (all event types, no package filter, no event coalescing) so that we can
+  observe what YouTube/Instagram actually emit. The service only records events of the target
+  apps and, for other apps, only the package name of foreground changes.
+  From phase 1 on this is narrowed to the target packages and a few event types (see docs/ARCHITECTURE.md).
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/a11y_service_description"
+    android:isAccessibilityTool="false"
+    android:notificationTimeout="0"
+    android:settingsActivity="io.github.yungamp.shortvideoblocker.ui.MainActivity" />

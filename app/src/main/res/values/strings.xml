@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShortVideoBlocker</string>
+    <string name="a11y_service_label">ShortVideoBlocker (Inspector)</string>
+    <string name="a11y_service_description">Phase 0 – Inspector: Liest auf Knopfdruck die Bildschirmstruktur von YouTube und Instagram aus und speichert sie lokal auf dem Gerät, um Shorts und Reels später zuverlässig erkennen zu können. Es werden keine Daten gesendet. Dateien verlassen das Gerät nur, wenn du sie selbst teilst.</string>
+</resources>
